@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0,auto;
+    padding: 0, 30px;
+}
+
+ul{
+    list-style-type: none;
+    font-family: inter;
+}
+
+.navbar {
+    background-color: rgba(54, 25, 33, 0.2);
+    color: rgba(54, 25, 33, 1);
+    height: 60px;
+    width: 1440px;
+    margin-top: 0;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: 400px;
+    display: flex;
+    margin-left: 20px;
+}
+
+#trianglelogo {
+    margin-left: 20px;
+    height: 20.5px;
+    filter: blur(0);
+    opacity: 10.0;
+    filter: brightness(0.5);
+}
+
+#limalogo {
+    height: 30px;
+    margin-left: 5px;
+    width: 150px;
+    filter: blur(0);
+    opacity: 10.0;
+    filter: brightness(0.5);
+}
+
+.navbar a {
+color:rgba(54, 25, 33, 1);
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+}
+
+.navbar a:hover {
+    color: lightgrey;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    height: 60px;
+    width: 1440px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 70px;
+}
+
+.header {
+    color:rgba(54, 25, 33, 1) ;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#hername {
+    font-size: 50px;
+    font-family: inter;
+    font-weight: 600;
+    
+}
+
+#graphics {
+    font-size: 35px;
+    font-weight: 200;
+    font-family: inter;
+    padding-top: 8px;
+}
+
+#hobby {
+    margin-top: 75px;
+    padding-bottom: 70px;
+}
+
+
+p {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: inter;
+    font-weight: 200;
+}
+
+p strong {
+font-weight: 450;
+font-size: 23.6px;
+font-family: inter;
+
+}
+.container2 {
+    background-color: rgba(54, 25, 33, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-content: space-around ;
+    margin-top: 120px;
+}
+.headtext {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.abouttext {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#aboutpic {
+    padding-top: 60px;
+    width: 500px;
+    height: 400px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+
+#about {
+    font-style: italic;
+    font-size: 20px;
+    font-family:inter;
+    font-weight: 300;
+    padding: 50px;
+}
+
+.underlined-text {
+    text-decoration-skip-ink: auto;
+}
+.firstslide {
+    display: flex;
+    justify-content: center;
+}
+
+#s {
+ margin-top:250px ;
+margin-right: 100px ;
+padding: 10px;
+}
+
+#Samsun {
+font-family: inter;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+padding-inline: 100px;
+background-image: url(Line\ 3.png);
+background-repeat: no-repeat;
+background-position: bottom;
+}
+
+#hero {
+    width: 464px;
+    height: 629px;
+    margin: 65px;
+}
+.expertise {
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 600px;
+    height: 80px;
+    font-size:x-large;
+    color: #000;
+    margin-top: 20px;
+}
+.contact-form {
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 350;
+}
+
+
+h2 {
+    font-family: inter;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(54, 25, 33, 1) ;
+    margin-left: 450px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+
+#form {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(54, 25, 33, 1);
+    color: white;
+    margin-top: 50px;
+    width: 1440px;
+    height: 58px;
+    align-content: center;
+    font-size: 12px;
+    font-style: italic;
+    font-family:inter;
+    font-weight: 200;
+
+}
+#contact-form {
+    margin-bottom: 500px;
+    line-height: 2.0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 70px;
+    font-family: inter;
+    color:  rgba(54, 25, 33, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+form {
+    width: 300px;
+    margin-left: 430px;
+}
+
+
+hr {
+    width: 550px;
+    margin-bottom: 40px;
+}
+
+#brand-name{
+    border: none;
+    margin-top: 30px;
+}
+
+#email {
+    border: none;
+    margin-top: 30px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    position: relative;
+    left: 400px;
+    background-color: rgba(54, 25, 33, 1) ;
+    color: white;
+    width: 110px;
+    height: 36px;
+    font-size:large;
+}
